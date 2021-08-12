@@ -1,0 +1,136 @@
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Medium.ttf);
+    font-weight:normal;
+}
+@font-face{
+    font-family: digital;
+    src: url(fonts/digital-7.ttf);
+    font-weight:bold;
+}
+@font-face{
+    font-family: digital;
+    src: url(fonts/digital-7\ \(mono\).ttf);
+    font-weight:normal;
+}
+.main-body{
+    background-color: #84aec9;
+    height: 655px;
+    width: 1496px;
+    padding-top: 60px;
+    
+}
+.calc{
+    width: 400px;
+    height: 590px;
+    background-color: #292438;
+    background-image: linear-gradient(#292438,#231f2e);
+    margin-left: 548px;
+    border-radius: 32.5px;
+    
+}
+
+.output{
+    
+    
+    height: 150px;
+    width: 400px;
+    
+}
+.name{
+    
+    height: 20px;
+    width: 400px;
+    margin-top: 20px;
+    float: left;
+      
+    
+
+}
+.noufal{
+    color: rgb(255, 255, 255);
+    margin-left: 274px;
+    font-family: roboto;
+
+}
+.screen{
+    width: 343px;
+    height:70px;
+    margin-left: 25px;
+    margin-top: 10px;
+    pointer-events:none;
+    background-color: #949494;
+    border-radius: 5px;
+    font-size: 75px;
+    font-family: digital;
+    font-weight:bold;
+    text-align:right;
+}
+.buttons{
+    _background-color: darkcyan;
+    height: 415px;
+    width: 350px;
+    margin-left: 25px;
+    
+    
+}
+.row {
+    _background-color: rgb(159, 247, 247);
+    height: 65px;
+    width: 400px;
+    margin-top: 15px;
+    float: left;
+    margin-left: -25px;
+}
+.button{
+    
+    _background-image: linear-gradient(#425866,#34444b);
+    height:65px;
+    width:69.5px;
+    float: left;
+    margin-right: 1px;
+    margin-left:24px;
+    border-radius:5px;
+    
+}
+.btn{
+    background-color: #425866;
+    height:65px;
+    width:69.5px;
+    text-align: center;
+    font-family: roboto;
+    font-size:x-large;
+    color:#fff;
+    border-radius:5px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+.btn:hover{
+      background-color: #3e4d8e;
+      transform: translateY(.5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      transition: opacity 0.3s ease-in-out;
+      transform: scale(1.1, 1.1);
+      transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+  .btn:active {
+    background-color: #28325c;
+    transform: translateY(2px);
+    
+      
+  }
+  #cancel{
+      background-color: rgb(175, 53, 45);
+  }
+  
+  #cancel:hover{
+    background-color: #8d2c2c;
+  }
+  #cancel:active {
+    background-color: #642424;
+    transform: translateY(2px);
+    
+  }
